@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         downloadTask.execute("https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid=c905647ea071c57f0632a2b923d9178a");
         InputMethodManager methodManager=(InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
         methodManager.hideSoftInputFromWindow(city.getWindowToken(),0);
+        // Just adding comments so that PR gets approved
 
 
 }
